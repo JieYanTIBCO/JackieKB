@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Notes/Learning/Markdown.md",
+                "file": "01-Notes/Learning/Security/verify ceritificate.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Markdown"
+              "title": "verify ceritificate"
             }
           }
         ]
@@ -162,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Notes/Learning/Markdown.md",
+                "file": "01-Notes/Learning/Security/verify ceritificate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Markdown"
+              "title": "Outline of verify ceritificate"
             }
           },
           {
@@ -216,16 +216,25 @@
       "extract-highlights-plugin:Extract Highlights": false
     }
   },
-  "active": "2351ef468f610050",
+  "active": "aecc56c0719e9dfa",
   "lastOpenFiles": [
-    "02-Assets/Cheatsheets/MarkdownCS.md",
+    "01-Notes/Learning/Security/SSL & TLS.md",
+    "01-Notes/Learning/Security/verify ceritificate.md",
+    "01-Notes/Learning/Security/Encryption.md",
+    "01-Notes/Learning/Security/Administration of Linux.md",
+    "01-Notes/Learning/Security/Application level.md",
+    "01-Notes/Learning/Security/AWS VPC PrivateLink.md",
+    "01-Notes/Learning/Security/AWS Security.md",
     "01-Notes/Learning/Markdown.md",
+    "00-Inbox/Learning Plan.md",
+    "01-Notes/Learning/Security",
+    "00-Inbox/MeetingRequestForupdaterissue.md",
+    "02-Assets/Cheatsheets/MarkdownCS.md",
     "02-Assets/Templates/DailyNotesTemplate.md",
     "Excalidraw/Drawing 2025-02-24 00.23.49.excalidraw.md",
     "Dynamic Highlights configuration",
     "Dynamic Highlights configuration.json",
     "Excalidraw",
-    "00-Inbox/Learning Plan.md",
     "00-Inbox/Untitled.md",
     "00-Inbox/README.md",
     "03-Archive/README.md",
@@ -251,18 +260,9 @@
     "src/assets/logos/xunfei.png",
     "src/app/bots/xunfei/api.ts",
     "src/app/bots/poe/index.ts",
-    "src/app/bots/qianwen/index.ts",
     "README_ZH-CN.md",
     "README_ZH-TW.md",
     "README_JA.md",
-    "README_IN.md",
-    "00-Inbox/学习计划.md",
-    "00-Inbox/Markdown.md",
-    "00-Inbox/Markdown Learning.md",
-    "01-Notes/Learning/Markdown Learning.md",
-    "01-Notes/Learning/markdown test.md",
-    "Learning plan.md",
-    "01-Notes/Career/Snowflake-SeniorCloudSupportEngineer-SQL-2025-02-23.md",
-    "01-Notes/Career/Snowflake-Senior Cloud Support Engineer - Security--2025-02-23.md"
+    "README_IN.md"
   ]
 }
