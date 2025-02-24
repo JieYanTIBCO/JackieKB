@@ -25,12 +25,14 @@
             "id": "08490ef976b02c13",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-02-24 00.23.49.excalidraw.md"
+                "file": "01-Notes/Learning/Markdown.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-24 00.23.49.excalidraw"
+              "icon": "lucide-file",
+              "title": "Markdown"
             }
           }
         ],
@@ -242,6 +244,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "yet-another-obsidian-synchronizer:YAOS": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -249,17 +252,19 @@
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
-      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
       "obsidian-kanban:Create new board": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "08490ef976b02c13",
   "lastOpenFiles": [
-    "01-Notes/Learning/Markdown.md",
+    "Dynamic Highlights configuration",
+    "Dynamic Highlights configuration.json",
     "Excalidraw/Drawing 2025-02-24 00.23.49.excalidraw.md",
+    "01-Notes/Learning/Markdown.md",
     "Excalidraw",
     "00-Inbox/Learning Plan.md",
     "00-Inbox/Untitled.md",
@@ -290,7 +295,6 @@
     "src/app/bots/poe/index.ts",
     "src/app/bots/qianwen/index.ts",
     "src/app/bots/qianwen/api.ts",
-    "src/app/i18n/locales/german.json",
     "README_ZH-CN.md",
     "README_ZH-TW.md",
     "README_JA.md",
@@ -302,7 +306,6 @@
     "01-Notes/Learning/markdown test.md",
     "Learning plan.md",
     "01-Notes/Career/Snowflake-SeniorCloudSupportEngineer-SQL-2025-02-23.md",
-    "01-Notes/Career/Snowflake-Senior Cloud Support Engineer - Security--2025-02-23.md",
-    "01-Notes/Career/Snowflake-SeniorCloudSupportEngineer-Security-2025-02-23.md"
+    "01-Notes/Career/Snowflake-Senior Cloud Support Engineer - Security--2025-02-23.md"
   ]
 }

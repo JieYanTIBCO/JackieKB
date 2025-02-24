@@ -1,0 +1,117 @@
+{
+    "rules": [
+        {
+            "name": "Important Tags",
+            "color": "#ff4444",
+            "regex": "(#important|#urgent|❗|‼️)",
+            "targets": [
+                "text"
+            ]
+        },
+        {
+            "name": "Programming Keywords",
+            "color": "#4CAF50",
+            "regex": "(API|SQL|Python|JavaScript|TypeScript|React|Vue|Node\\.js)",
+            "targets": [
+                "text"
+            ]
+        },
+        {
+            "name": "Task Status",
+            "color": "#2196F3",
+            "regex": "- \\[([ x])\\]",
+            "targets": [
+                "text"
+            ]
+        },
+        {
+            "name": "Project Keywords",
+            "color": "#FF9800",
+            "regex": "(需求|痛点|目标|解决方案|优先级)",
+            "targets": [
+                "text"
+            ]
+        },
+        {
+            "name": "Learning Progress",
+            "color": "#9C27B0",
+            "regex": "#learning/(\\d+)%",
+            "replace": "📚 Progress: $1%",
+            "targets": [
+                "text"
+            ]
+        },
+        {
+            "name": "Code Comments",
+            "color": "#F44336",
+            "regex": "(TODO|FIXME|BUG|NOTE|HACK|XXX)",
+            "css": "font-weight: bold; text-decoration: underline wavy",
+            "targets": [
+                "text",
+                "code-block"
+            ]
+        },
+        {
+            "name": "Interview Status",
+            "color": "#00BCD4",
+            "regex": "(面试|offer|待定|通过|拒绝)",
+            "targets": [
+                "text"
+            ]
+        },
+        {
+            "name": "Salary Range",
+            "color": "#4CAF50",
+            "regex": "(\\d+[kK]|\\d+\\.\\d+[kK]|¥\\d+)",
+            "targets": [
+                "text"
+            ]
+        },
+        {
+            "name": "Dates",
+            "color": "#FFC107",
+            "regex": "\\d{4}[-/]\\d{2}[-/]\\d{2}",
+            "targets": [
+                "text"
+            ]
+        },
+        {
+            "name": "Psychology Terms",
+            "color": "#E91E63",
+            "regex": "(认知|行为|情绪|动机|焦虑|压力|自我效能)",
+            "css": "border-bottom: 2px dashed",
+            "targets": [
+                "text"
+            ]
+        },
+        {
+            "name": "Priority Levels",
+            "color": [
+                "#FF5722",
+                "#FFC107",
+                "#4CAF50"
+            ],
+            "regex": "(P0|P1|P2)",
+            "targets": [
+                "text",
+                "tag"
+            ]
+        },
+        {
+            "name": "Review Status",
+            "color": "#673AB7",
+            "regex": "#review/(\\d+)d",
+            "replace": "📅 Review in $1 days",
+            "targets": [
+                "text"
+            ]
+        }
+    ],
+    "settings": {
+        "refreshInterval": 1000,
+        "maxFileSize": 100000,
+        "enableInEditMode": true,
+        "enableInPreviewMode": true,
+        "enableInLivePreview": true
+    }
+}

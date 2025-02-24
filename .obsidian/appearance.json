@@ -1,3 +1,7 @@
 {
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSize": 20,
+  "enabledCssSnippets": [
+    "gradient-headers"
+  ]
 }
