@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iwant to test.md",
+                "file": "01-Notes/Learning/Markdown.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "iwant to test"
+              "title": "Markdown"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "iwant to test.md",
+            "file": "01-Notes/Learning/Markdown.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "iwant to test.md",
+            "file": "01-Notes/Learning/Markdown.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -131,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "iwant to test.md",
+            "file": "01-Notes/Learning/Markdown.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -156,8 +156,13 @@
   "active": "5eea50d49309dd28",
   "lastOpenFiles": [
     "01-Notes/DailyNote/2025-02-23.md",
-    "2025-02-23.md",
+    "00-Inbox/Untitled.md",
+    "02-Assets/Cheatsheets/MarkdownCS.md",
+    "Dynamic Highlights configuration",
+    "Excalidraw/Drawing 2025-02-24 00.23.49.excalidraw.md",
     "iwant to test.md",
+    "Excalidraw",
+    "2025-02-23.md",
     "00-Inbox/Learning Plan.md",
     "01-Notes/DailyNote/Untitled.md",
     "02-Assets/README.md",
@@ -175,8 +180,6 @@
     "02-Assets",
     "01-Notes/Career/Interview",
     "01-Notes/Learning/Markdown.md",
-    "01-Notes/Career",
-    "01-Notes/DailyNote",
     "nothing.md"
   ]
 }

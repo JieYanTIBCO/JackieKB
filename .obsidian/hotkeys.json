@@ -33,5 +33,14 @@
       ],
       "key": "N"
     }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "+"
+    }
   ]
 }
