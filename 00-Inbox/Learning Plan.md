@@ -6,6 +6,10 @@
 
 # Obsidian
 
+# Grafana 
+
+# ELK
+
 # Docker
 
 # Kubernetes

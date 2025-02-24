@@ -1,4 +1,12 @@
 [
   "periodic-notes",
-  "dataview"
+  "dataview",
+  "templater-obsidian",
+  "obsidian-tasks-plugin",
+  "calendar",
+  "obsidian-kanban",
+  "table-editor-obsidian",
+  "obsidian-mind-map",
+  "obsidian-excalidraw-plugin",
+  "yet-another-obsidian-synchronizer"
 ]

@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Markdown"
             }
+          },
+          {
+            "id": "08490ef976b02c13",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-02-24 00.23.49.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-24 00.23.49.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "59246572c58d45b1",
@@ -40,8 +53,37 @@
               "icon": "lucide-file",
               "title": "DailyNotesTemplate"
             }
+          },
+          {
+            "id": "fdf575e0116ba5c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Inbox/Learning Plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Learning Plan"
+            }
+          },
+          {
+            "id": "fbafda0c45703710",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Notes/Learning/Markdown.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Markdown"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,13 +212,33 @@
               "icon": "lucide-list",
               "title": "Outline of Markdown"
             }
+          },
+          {
+            "id": "7cbd6d5d9a983f58",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "1351e943e6d06aa8",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,22 +247,29 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "periodic-notes:Open today": false,
       "random-note:Open random note": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "periodic-notes:Open today": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "683a8b18736bce01",
+  "active": "08490ef976b02c13",
   "lastOpenFiles": [
-    "02-Assets/Templates/DailyNotesTemplate.md",
     "01-Notes/Learning/Markdown.md",
+    "Excalidraw/Drawing 2025-02-24 00.23.49.excalidraw.md",
+    "Excalidraw",
+    "00-Inbox/Learning Plan.md",
+    "00-Inbox/Untitled.md",
+    "00-Inbox/README.md",
+    "02-Assets/Templates/DailyNotesTemplate.md",
     "03-Archive/README.md",
     "01-Notes/README.md",
     "README.md",
-    "00-Inbox/README.md",
     "iwant to test.md",
     "01-Notes/DailyNote/2025-02-23.md",
-    "00-Inbox/Learning Plan.md",
     "01-Notes/DailyNote/Untitled.md",
     "01-Notes/DailyNote",
     "02-Assets/README.md",
@@ -222,7 +291,6 @@
     "src/app/bots/qianwen/index.ts",
     "src/app/bots/qianwen/api.ts",
     "src/app/i18n/locales/german.json",
-    "src/app/i18n/locales/simplified-chinese.json",
     "README_ZH-CN.md",
     "README_ZH-TW.md",
     "README_JA.md",
@@ -235,8 +303,6 @@
     "Learning plan.md",
     "01-Notes/Career/Snowflake-SeniorCloudSupportEngineer-SQL-2025-02-23.md",
     "01-Notes/Career/Snowflake-Senior Cloud Support Engineer - Security--2025-02-23.md",
-    "01-Notes/Career/Snowflake-SeniorCloudSupportEngineer-Security-2025-02-23.md",
-    "03-Personal/README.md",
-    "Snowflake-SeniorCloudSupportEngineer-SQL-2025-02-23.md"
+    "01-Notes/Career/Snowflake-SeniorCloudSupportEngineer-Security-2025-02-23.md"
   ]
 }
