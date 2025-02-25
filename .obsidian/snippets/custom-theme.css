@@ -29,9 +29,22 @@
 strong,
 em,
 mark,
-li
- {
+li {
   background: linear-gradient(to right, #a8c0ff, #8ec5fc, #7bdcff) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
+}
+
+/* Mermaid Diagram Styling */
+.mermaid {
+    width: 100% !important;
+    max-width: none !important; /* 移除最大宽度限制 */
+    margin: 20px auto;
+    transform: scale(1) !important; /* 禁用缩放或调整比例 */
+    transform-origin: top left;
+}
+
+/* 确保父元素没有限制宽度 */
+.markdown-preview-view {
+    max-width: none !important; /* 移除父元素的宽度限制 */
 }

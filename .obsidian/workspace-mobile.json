@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Notes/Learning/Markdown.md",
+                "file": "01-Notes/Learning/Security/verify ceritificate.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Markdown"
+              "title": "verify ceritificate"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "01-Notes/Learning/Markdown.md",
+            "file": "01-Notes/Learning/Security/verify ceritificate.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "01-Notes/Learning/Markdown.md",
+            "file": "01-Notes/Learning/Security/verify ceritificate.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -131,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "01-Notes/Learning/Markdown.md",
+            "file": "01-Notes/Learning/Security/verify ceritificate.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -155,6 +155,16 @@
   },
   "active": "5eea50d49309dd28",
   "lastOpenFiles": [
+    "01-Notes/Learning/Markdown.md",
+    "01-Notes/Learning/Security/AWS Security.md",
+    "01-Notes/Learning/Security/Administration of Linux.md",
+    "01-Notes/Learning/Security/verify ceritificate.md",
+    "01-Notes/Learning/Security/Application level.md",
+    "01-Notes/Learning/Security/AWS VPC PrivateLink.md",
+    "01-Notes/Learning/Security/SSL & TLS.md",
+    "01-Notes/Learning/Security/Encryption.md",
+    "01-Notes/Learning/Security",
+    "00-Inbox/MeetingRequestForupdaterissue.md",
     "01-Notes/DailyNote/2025-02-23.md",
     "00-Inbox/Untitled.md",
     "02-Assets/Cheatsheets/MarkdownCS.md",
@@ -178,8 +188,6 @@
     "02-Assets/Cheatsheets",
     "02-Assets/Attachments",
     "02-Assets",
-    "01-Notes/Career/Interview",
-    "01-Notes/Learning/Markdown.md",
     "nothing.md"
   ]
 }
