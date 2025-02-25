@@ -62,3 +62,57 @@ li {
   max-width: none !important;
   overflow: visible !important;
 }
+
+/* Image Optimization */
+.markdown-preview-view img {
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 20px auto;
+    display: block;
+}
+
+/* For specific large diagrams like network architecture */
+.markdown-preview-view img[alt*="Architecture"],
+.markdown-preview-view img[alt*="Diagram"],
+.markdown-preview-view img[alt*="network"] {
+    min-width: 80% !important;
+    object-fit: contain;
+}
+
+/* Image container optimization */
+.markdown-preview-view .internal-embed img {
+    max-width: none !important;
+    width: 100% !important;
+}
+
+/* Center aligned images */
+.markdown-preview-view div[align="center"] img {
+    margin: 20px auto;
+    width: 100% !important;
+}
+
+/* Image and Link Styling */
+.markdown-preview-view img {
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 20px auto;
+    display: block;
+}
+
+.click-zoom {
+    text-align: center;
+    margin: -15px 0 20px 0;
+    font-size: 0.9em;
+}
+
+.click-zoom a {
+    color: var(--text-muted);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--text-muted);
+}
+
+.click-zoom a:hover {
+    color: var(--text-normal);
+    border-bottom-style: solid;
+}
