@@ -1,0 +1,45 @@
+Client           SP (Service Provider)            IDP (Identity Provider)        
+ |                       |                                      |
+ |--- Request Access ---> |                                     |  
+ |                       |                                      |
+ |                       |--- Redirect to IDP Sign-in URL ----->|
+ |                       | (Include SSO Issuer URL)             |
+ |                       |                                      |
+ |                       |                                      |
+ |<-- Redirect to IDP ----|                                     |
+ |   Sign-in Page         |                                     |
+ |                       |                                      |
+ |--- Login at IDP -------------------------------------------->|Validate User Credentials 
+ |                       |                                      |
+ |                       |										|
+ |                       |                                      |
+ |                       |                                      |
+ |                       |<-- Auth Success, Generate ---------->|
+ |                       |    SAML Assertion (Signed with       |
+ |                       |    IDP Certificate, include IDP      |
+ |                       |    Issuer URL)                       |
+ |                       |                                      |
+ |<-- SAML Response ----->|                                     |
+ |   (Redirect to ACS URL)|                                     |
+ |                       |                                      |
+ |--- Redirect to ACS --->|                                     |
+ |   (Send SAML Assertion)|                                     |
+ |                       |                                      |
+ |                       |--- Validate SAML Assertion --------->|
+ |                       |    (Check IDP Certificate,           |
+ |                       |    IDP Issuer URL, SSO Issuer URL)   |
+ |                       |                                      |
+ |                       |<-- SAML Validation Success --------->|
+ |                       |                                      |
+ |<-- Access Granted -----|                                     |
+ |                       |                                      |
+ |                       |                                      |
+ |                       |                                      |
+ |------------------------Optional Provisioning (SCIM)----------|
+ |                       |                                      |
+ |                       |--- Assign User/Group via SCIM ------>|
+ |                       |    (Send SCIM requests to SP         |
+ |                       |     SCIM Endpoint, use Access Token) |
+ |                       |                                      |
+ |                       |--- Provision Users/Groups ---------->|
+ |                       |                                      |
