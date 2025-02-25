@@ -1,4 +1,4 @@
-/* 1-3级标题使用蓝紫渐变 */
+/* 1-3级标题渐变 */
 .cm-s-obsidian span.cm-header-1,
 .markdown-preview-view h1,
 .cm-s-obsidian span.cm-header-2,
@@ -10,7 +10,7 @@
   -webkit-text-fill-color: transparent !important;
 }
 
-/* 4-6级标题使用粉绿渐变 */
+/* 4-6级标题渐变 */
 .cm-s-obsidian span.cm-header-4,
 .markdown-preview-view h4,
 .cm-s-obsidian span.cm-header-5,
@@ -22,7 +22,7 @@
   -webkit-text-fill-color: transparent !important;
 }
 
-/* 保持原有的强调文本样式不变 */
+/* 强调文本渐变 */
 .cm-s-obsidian span.cm-strong,
 .cm-s-obsidian span.cm-em,
 .cm-s-obsidian mark,
@@ -35,16 +35,30 @@ li {
   -webkit-text-fill-color: transparent !important;
 }
 
-/* Mermaid Diagram Styling */
+/* Mermaid 核心修复 */
 .mermaid {
-    width: 100% !important;
-    max-width: none !important; /* 移除最大宽度限制 */
-    margin: 20px auto;
-    transform: scale(1) !important; /* 禁用缩放或调整比例 */
-    transform-origin: top left;
+  width: 100% !important;
+  max-width: none !important;
+  overflow: visible !important;
+  margin: 20px auto;
 }
 
-/* 确保父元素没有限制宽度 */
+.mermaid svg {
+  width: 100% !important;
+  height: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  transform: scale(1) !important;
+  transform-origin: top left;
+}
+
+/* 修复父容器 */
 .markdown-preview-view {
-    max-width: none !important; /* 移除父元素的宽度限制 */
+  max-width: none !important;
+  overflow: visible !important;
+}
+
+.markdown-preview-view .markdown-preview-sizer {
+  max-width: none !important;
+  overflow: visible !important;
 }

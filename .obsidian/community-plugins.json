@@ -1,15 +1,9 @@
 [
   "periodic-notes",
   "dataview",
-  "templater-obsidian",
   "obsidian-tasks-plugin",
-  "calendar",
-  "obsidian-kanban",
   "table-editor-obsidian",
   "obsidian-mind-map",
   "obsidian-excalidraw-plugin",
-  "yet-another-obsidian-synchronizer",
-  "obsidian-dynamic-highlights",
-  "obsidian-minimal-settings",
-  "extract-highlights-plugin"
+  "yet-another-obsidian-synchronizer"
 ]
