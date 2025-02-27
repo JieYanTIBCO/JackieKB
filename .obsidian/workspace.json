@@ -11,10 +11,14 @@
             "id": "6df229a8f8b881c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01-Notes/Learning/Data Warehouse.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Data Warehouse"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5026054382324
+    "width": 380.5
   },
   "right": {
     "id": "cc2d84d66d7cd62b",
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "01-Notes/Learning/Data Warehouse.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Data Warehouse"
             }
           },
           {
@@ -161,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,18 +186,21 @@
   },
   "active": "6df229a8f8b881c0",
   "lastOpenFiles": [
+    "01-Notes/Learning/Snowflake.md",
+    "01-Notes/Learning/Data Warehouse.md",
+    "00-Inbox/Learning Plan.md",
+    "01-Notes/Learning/Container/Docker.md",
+    "01-Notes/Learning/Security/AWS VPC PrivateLink.md",
+    "01-Notes/Learning/Security/AWS Security.md",
+    "01-Notes/Learning/Security/Administration of Linux.md",
+    "02-Assets/Attachments/dockercheatsheet8.png",
+    "01-Notes/Learning/Security/Encryption.md",
     "放,阿里方面分.canvas",
     "Untitled.canvas",
     "02-Assets/Attachments/AWS_network.png",
-    "01-Notes/Learning/Container/Docker.md",
-    "01-Notes/Learning/Security/AWS Security.md",
-    "01-Notes/Learning/Security/Encryption.md",
-    "01-Notes/Learning/Security/AWS VPC PrivateLink.md",
-    "01-Notes/Learning/Security/Administration of Linux.md",
     "01-Notes/Learning/Security/Verify Certificate.md",
     "01-Notes/Learning/Security/SSL & TLS.md",
     "00-Inbox/MeetingRequestForupdaterissue.md",
-    "00-Inbox/Learning Plan.md",
     "00-Inbox/README.md",
     "00-Inbox/Untitled 1.md",
     "00-Inbox/Untitled.md",
@@ -199,7 +208,6 @@
     "01-Notes/Learning/Cloud/AWS/VPC 101.md",
     "01-Notes/Learning/Cloud/AWS/AWS cloud infrastructure.md",
     "01-Notes/DailyNote/2025-02-23.md",
-    "01-Notes/Learning/Data Warehouse.md",
     "01-Notes/Learning/Monitoring.md",
     "01-Notes/Learning/Security/Application level.md",
     "01-Notes/Learning/Container/Kubenetes.md",
@@ -211,7 +219,6 @@
     "02-Assets/Attachments/SQLQueryOrder.png",
     "02-Assets/Attachments/AWSbill.png",
     "02-Assets/Attachments/LDAPHierarchy.png",
-    "02-Assets/Attachments/kerberose.png",
     "02-Assets/Attachments/SSO_SAML.txt",
     "01-Notes/Learning/Tools/Monitoring/Promethus.md",
     "01-Notes/Learning/Tools/Monitoring/Grafana.md",
