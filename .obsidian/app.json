@@ -4,5 +4,6 @@
   "trashOption": "local",
   "newFileLocation": "folder",
   "newFileFolderPath": "00-Inbox",
-  "attachmentFolderPath": "02-Assets/Attachments"
+  "attachmentFolderPath": "02-Assets/Attachments",
+  "showLineNumber": true
 }

@@ -1,4 +1,4 @@
-/* 1-3级标题渐变 */
+/* Gradient styles for primary headings (h1-h3) */
 .cm-s-obsidian span.cm-header-1,
 .markdown-preview-view h1,
 .cm-s-obsidian span.cm-header-2,
@@ -10,7 +10,7 @@
   -webkit-text-fill-color: transparent !important;
 }
 
-/* 4-6级标题渐变 */
+/* Gradient styles for secondary headings (h4-h6) */
 .cm-s-obsidian span.cm-header-4,
 .markdown-preview-view h4,
 .cm-s-obsidian span.cm-header-5,
@@ -22,7 +22,7 @@
   -webkit-text-fill-color: transparent !important;
 }
 
-/* 强调文本渐变 */
+/* Gradient styles for emphasized text elements */
 .cm-s-obsidian span.cm-strong,
 .cm-s-obsidian span.cm-em,
 .cm-s-obsidian mark,
@@ -35,7 +35,7 @@ li {
   -webkit-text-fill-color: transparent !important;
 }
 
-/* Mermaid 核心修复 */
+/* Mermaid diagram core fixes */
 .mermaid {
   width: 100% !important;
   max-width: none !important;
@@ -43,6 +43,7 @@ li {
   margin: 20px auto;
 }
 
+/* Mermaid SVG optimization */
 .mermaid svg {
   width: 100% !important;
   height: auto !important;
@@ -52,18 +53,19 @@ li {
   transform-origin: top left;
 }
 
-/* 修复父容器 */
+/* Parent container width fix */
 .markdown-preview-view {
   max-width: none !important;
   overflow: visible !important;
 }
 
+/* Preview sizer width optimization */
 .markdown-preview-view .markdown-preview-sizer {
   max-width: none !important;
   overflow: visible !important;
 }
 
-/* Image Optimization */
+/* General image optimization */
 .markdown-preview-view img {
     max-width: 100% !important;
     width: auto !important;
@@ -72,7 +74,7 @@ li {
     display: block;
 }
 
-/* For specific large diagrams like network architecture */
+/* Large diagram specific styling */
 .markdown-preview-view img[alt*="Architecture"],
 .markdown-preview-view img[alt*="Diagram"],
 .markdown-preview-view img[alt*="network"] {
@@ -80,19 +82,19 @@ li {
     object-fit: contain;
 }
 
-/* Image container optimization */
+/* Embedded image container optimization */
 .markdown-preview-view .internal-embed img {
     max-width: none !important;
     width: 100% !important;
 }
 
-/* Center aligned images */
+/* Center-aligned image styling */
 .markdown-preview-view div[align="center"] img {
     margin: 20px auto;
     width: 100% !important;
 }
 
-/* Image and Link Styling */
+/* Enhanced image and link styling */
 .markdown-preview-view img {
     max-width: 100% !important;
     height: auto !important;
@@ -100,19 +102,92 @@ li {
     display: block;
 }
 
+/* Click-to-zoom functionality styling */
 .click-zoom {
     text-align: center;
     margin: -15px 0 20px 0;
     font-size: 0.9em;
 }
 
+/* Link styling for zoom functionality */
 .click-zoom a {
     color: var(--text-muted);
     text-decoration: none;
     border-bottom: 1px dashed var(--text-muted);
 }
 
+/* Hover effects for zoom links */
 .click-zoom a:hover {
     color: var(--text-normal);
     border-bottom-style: solid;
+}
+
+/* Width and responsiveness optimization */
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer,
+.markdown-source-view.is-readable-line-width .cm-contentContainer {
+  max-width: 90% !important;  /* Increased from default */
+  margin: 0 auto;
+  min-width: 800px;          /* Minimum width */
+  padding: 0 2em;           /* Add padding for readability */
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 800px) {
+  .markdown-preview-view.is-readable-line-width .markdown-preview-sizer,
+  .markdown-source-view.is-readable-line-width .cm-contentContainer {
+    min-width: 95% !important;
+    padding: 0 1em;
+  }
+}
+
+/* Content container optimization */
+.workspace-split.mod-vertical {
+  width: 100% !important;
+}
+
+/* Remove width restrictions */
+.markdown-preview-view,
+.markdown-source-view {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Table width and responsiveness optimization */
+.markdown-preview-view table {
+    width: 100% !important;
+    margin: 20px 0;
+    border-collapse: collapse;
+    overflow-x: auto;
+    display: block;
+}
+
+/* Table cell spacing and alignment */
+.markdown-preview-view td,
+.markdown-preview-view th {
+    padding: 8px 12px;
+    min-width: 100px;
+    border: 1px solid var(--background-modifier-border);
+}
+
+/* Table header styling */
+.markdown-preview-view thead {
+    background-color: var(--background-modifier-hover);
+}
+
+/* Table row hover effect */
+.markdown-preview-view tbody tr:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+/* Table responsiveness for mobile */
+@media screen and (max-width: 800px) {
+    .markdown-preview-view table {
+        font-size: 14px;
+    }
+    
+    .markdown-preview-view td,
+    .markdown-preview-view th {
+        padding: 6px 8px;
+        min-width: 60px;
+    }
 }
