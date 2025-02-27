@@ -2,14 +2,14 @@
 
 ## Protocol Comparison 📋
 
-| Version | Status | Secure | Default Port |
-|---------|---------|---------|--------------|
-| SSL 2.0 | ❌ Deprecated | No | 443 |
-| SSL 3.0 | ❌ Deprecated | No | 443 |
-| TLS 1.0 | ⚠️ Obsolete | Partial | 443 |
-| TLS 1.1 | ⚠️ Obsolete | Partial | 443 |
-| TLS 1.2 | ✅ Current | Yes | 443 |
-| TLS 1.3 | ✅ Current | Best | 443 |
+| Version | Status       | Secure  | Default Port |
+| ------- | ------------ | ------- | ------------ |
+| SSL 2.0 | ❌ Deprecated | No      | 443          |
+| SSL 3.0 | ❌ Deprecated | No      | 443          |
+| TLS 1.0 | ⚠️ Obsolete  | Partial | 443          |
+| TLS 1.1 | ⚠️ Obsolete  | Partial | 443          |
+| TLS 1.2 | ✅ Current    | Yes     | 443          |
+| TLS 1.3 | ✅ Current    | Best即   | 443          |
 
 ## Common Commands 🛠️
 
