@@ -4,33 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "754de0c5a76adf1b",
+        "id": "52c52504e1f13123",
         "type": "tabs",
         "children": [
           {
-            "id": "a093754a69029a7d",
+            "id": "6df229a8f8b881c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Notes/Learning/Container/Docker.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Docker"
-            }
-          },
-          {
-            "id": "1d426a8f5a609cb6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "02-Assets/Attachments/AWS_network.png"
-              },
-              "icon": "lucide-image",
-              "title": "AWS_network"
+              "title": "New tab"
             }
           }
         ]
@@ -154,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Notes/Learning/Container/Docker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker"
+              "title": "Outline"
             }
           },
           {
@@ -195,15 +178,18 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "a093754a69029a7d",
+  "active": "6df229a8f8b881c0",
   "lastOpenFiles": [
+    "放,阿里方面分.canvas",
+    "Untitled.canvas",
+    "02-Assets/Attachments/AWS_network.png",
+    "01-Notes/Learning/Container/Docker.md",
     "01-Notes/Learning/Security/AWS Security.md",
     "01-Notes/Learning/Security/Encryption.md",
     "01-Notes/Learning/Security/AWS VPC PrivateLink.md",
     "01-Notes/Learning/Security/Administration of Linux.md",
     "01-Notes/Learning/Security/Verify Certificate.md",
     "01-Notes/Learning/Security/SSL & TLS.md",
-    "01-Notes/Learning/Container/Docker.md",
     "00-Inbox/MeetingRequestForupdaterissue.md",
     "00-Inbox/Learning Plan.md",
     "00-Inbox/README.md",
@@ -217,7 +203,6 @@
     "01-Notes/Learning/Monitoring.md",
     "01-Notes/Learning/Security/Application level.md",
     "01-Notes/Learning/Container/Kubenetes.md",
-    "02-Assets/Attachments/AWS_network.png",
     "02-Assets/Attachments/AWS_architecture_1536x1536.webp",
     "02-Assets/Attachments/arp_segetation.png",
     "02-Assets/Attachments/Exchange_Architecure.png",
@@ -234,7 +219,6 @@
     "01-Notes/Learning/Tools/Ansible.md",
     "01-Notes/Learning/Tools/Monitoring",
     "01-Notes/Learning/Tools/Obsidian.md",
-    "01-Notes/Learning/Tools/Teraform.md",
     "01-Notes/Learning/Container",
     "01-Notes/Learning/Tools",
     "01-Notes/Learning/Cloud",
