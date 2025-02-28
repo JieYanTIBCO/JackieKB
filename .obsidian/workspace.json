@@ -186,9 +186,12 @@
   },
   "active": "6df229a8f8b881c0",
   "lastOpenFiles": [
-    "01-Notes/Learning/Snowflake.md",
-    "01-Notes/Learning/Data Warehouse.md",
     "00-Inbox/Learning Plan.md",
+    "01-Notes/Learning/ETL and Snowflake",
+    "01-Notes/Learning/Tools/Apache Airflow.md",
+    "01-Notes/Learning/Data Warehouse.md",
+    "00-Inbox/Untitled.md",
+    "01-Notes/Learning/Snowflake.md",
     "01-Notes/Learning/Container/Docker.md",
     "01-Notes/Learning/Security/AWS VPC PrivateLink.md",
     "01-Notes/Learning/Security/AWS Security.md",
@@ -203,7 +206,6 @@
     "00-Inbox/MeetingRequestForupdaterissue.md",
     "00-Inbox/README.md",
     "00-Inbox/Untitled 1.md",
-    "00-Inbox/Untitled.md",
     "00-Inbox/google job link.md",
     "01-Notes/Learning/Cloud/AWS/VPC 101.md",
     "01-Notes/Learning/Cloud/AWS/AWS cloud infrastructure.md",
@@ -223,16 +225,13 @@
     "01-Notes/Learning/Tools/Monitoring/Promethus.md",
     "01-Notes/Learning/Tools/Monitoring/Grafana.md",
     "01-Notes/Learning/Tools/Monitoring/ELK.md",
-    "01-Notes/Learning/Tools/Ansible.md",
     "01-Notes/Learning/Tools/Monitoring",
-    "01-Notes/Learning/Tools/Obsidian.md",
     "01-Notes/Learning/Container",
     "01-Notes/Learning/Tools",
     "01-Notes/Learning/Cloud",
     "01-Notes/Learning/Cloud/AWS",
     "01-Notes/Learning/Security",
     "Dynamic Highlights configuration",
-    "Dynamic Highlights configuration.json",
-    "Excalidraw"
+    "Dynamic Highlights configuration.json"
   ]
 }
