@@ -6,5 +6,5 @@
   "newFileFolderPath": "00-Inbox",
   "attachmentFolderPath": "02-Assets/Attachments",
   "showLineNumber": false,
-  "readableLineLength": true
+  "readableLineLength": false
 }

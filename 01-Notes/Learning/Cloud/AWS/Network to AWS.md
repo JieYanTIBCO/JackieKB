@@ -6,6 +6,14 @@ flowchart TD
         LF --> |2| Router["Enterprise Router"]
         Router --> |3| Proxy["Proxy Server (Optional)"]
         Router --> |3a| IDS["IDS System (Optional)"]
+        
+        %% Troubleshooting Tools - Enterprise
+        TroubleE[/"Troubleshooting:
+        • ping, traceroute
+        • netstat, nslookup
+        • tcpdump
+        • Firewall logs
+        • Router logs"/]
     end
     
     %% Connection Options Area
@@ -14,6 +22,14 @@ flowchart TD
         IDS --> |4b| Internet
         Router --> |4c| DirectConnect["AWS Direct Connect"]
         Router --> |4d| IPSEC["Site-to-Site VPN"]
+        
+        %% Troubleshooting Tools - Connection
+        TroubleC[/"Troubleshooting:
+        • MTR, traceroute
+        • BGP status check
+        • DC router logs
+        • VPN tunnel status
+        • ipsec status check"/]
     end
     
     %% AWS Cloud Services Area
@@ -50,7 +66,45 @@ flowchart TD
         SG2 --> |12b| EC2App["Application Server EC2"]
         EC2App --> |13b| SG3["Security Group"]
         SG3 --> |14| RDS["RDS Database"]
+        
+        %% AWS Troubleshooting Tools
+        TroubleA1[/"Edge Troubleshooting:
+        • CloudWatch Metrics
+        • WAF/Shield Dashboard
+        • VPC Flow Logs"/]
+        
+        TroubleA2[/"Network Troubleshooting:
+        • Reachability Analyzer
+        • Route Tables
+        • NACL rules check
+        • Security Group rules"/]
+        
+        TroubleA3[/"Service Troubleshooting:
+        • ALB access logs
+        • EC2 System logs
+        • RDS logs, metrics
+        • SSM Session Manager"/]
     end
+    
+    %% Command Line Tools
+    CommandLine[/"Common CLI Tools:
+    • ping (connectivity)
+    • telnet (port testing)
+    • nc/netcat (port testing)
+    • traceroute (path analysis)
+    • tcpdump (packet capture)
+    • netstat (connection status)
+    • curl/wget (HTTP testing)"/]
+    
+    %% AWS Specific Tools
+    AWSTools[/"AWS Specific Tools:
+    • VPC Flow Logs
+    • CloudWatch Logs
+    • CloudTrail
+    • Transit Gateway Network Manager
+    • Direct Connect health checks
+    • VPN tunnel monitoring
+    • Route 53 health checks"/]
     
     %% Style Settings
     classDef enterprise fill:#c9e6ff,stroke:#0066cc,stroke-width:2px;
@@ -58,10 +112,12 @@ flowchart TD
     classDef aws fill:#e6f5d0,stroke:#6aa84f,stroke-width:2px;
     classDef security fill:#ff9999,stroke:#cc0000,stroke-width:1px;
     classDef networking fill:#d0e0e3,stroke:#45818e,stroke-width:1px;
+    classDef tools fill:#e1d5e7,stroke:#9673a6,stroke-width:1px;
     
     class Enterprise enterprise;
     class ConnectionOptions connection;
     class AWS aws;
     class Shield,WAF,NACL,SG1,SG2,SG3 security;
     class IGW,DXGW,TGW,RouteTable,ALB networking;
+    class TroubleE,TroubleC,TroubleA1,TroubleA2,TroubleA3,CommandLine,AWSTools tools;
 ```
