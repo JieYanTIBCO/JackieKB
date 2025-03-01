@@ -72,11 +72,11 @@ mindmap
 
 ### Architecture Types
 
-| Type                          | Structure                                | Pros                 | Cons                  |
-| ----------------------------- | ---------------------------------------- | -------------------- | --------------------- |
-| **Star Schema**               | Central fact table with dimension tables | Simple, fast queries | Redundancy            |
-| **Snowflake Schema**          | Normalized dimensions                    | Less redundancy      | Complex joins         |
-| **Galaxy/Fact Constellation** | Multiple fact tables                     | Flexible modeling    | Complex relationships |
+| Type | Structure | Pros | Cons |
+|------|-----------|------|------|
+| **Star Schema** | Central fact table with dimension tables | Simple, fast queries | Redundancy |
+| **Snowflake Schema** | Normalized dimensions | Less redundancy | Complex joins |
+| **Galaxy/Fact Constellation** | Multiple fact tables | Flexible modeling | Complex relationships |
 
 ### ETL Reference
 
@@ -248,20 +248,20 @@ GROUP BY t.Quarter, p.Category
 ORDER BY t.Quarter, TotalRevenue DESC
 ```
 
-#### 4. ETL Process Example
+#### 4. ELK Stack Application
 
 ```mermaid
 graph LR
-    A[Source Systems] --> B[Extract<br>- Raw Data<br>- CDC<br>- Validation]
-    B --> C[Transform<br>- Cleansing<br>- Mapping<br>- Enrichment]
-    C --> D[Load<br>- Staging<br>- DWH Tables<br>- Incremental]
+    A[Web Server Logs] --> B[Logstash<br>Parse/Transform]
+    B --> C[Elasticsearch<br>Store/Index]
+    C --> D[Kibana<br>Visualize]
 ```
 
 Typical use cases:
 
-- Data Integration: Merging data from multiple source systems (CRM, ERP, etc.)
-- Data Quality: Standardizing formats, handling missing values, deduplication
-- Data Transformation: Currency conversion, unit standardization, calculations
-- Incremental Loading: Efficient delta updates with change data capture
+- Log Aggregation: Collecting logs from multiple servers
+- Performance Monitoring: API response time analysis
+- Error Tracking: Exception log statistics
+- User Behavior: Access path analysis
 
 These practical examples demonstrate how these concepts are applied in real business scenarios, making it easier to understand their practical implementation and benefits.

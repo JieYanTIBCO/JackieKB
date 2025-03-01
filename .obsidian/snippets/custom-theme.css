@@ -41,6 +41,8 @@ li {
   max-width: none !important;
   overflow: visible !important;
   margin: 20px auto;
+  text-align: center !important;
+  margin: 0 auto !important;
 }
 
 /* Mermaid SVG optimization */
@@ -159,6 +161,11 @@ li {
     border-collapse: collapse;
     overflow-x: auto;
     display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Table cell spacing and alignment */
@@ -167,6 +174,7 @@ li {
     padding: 8px 12px;
     min-width: 100px;
     border: 1px solid var(--background-modifier-border);
+    text-align: center !important;
 }
 
 /* Table header styling */
@@ -190,4 +198,18 @@ li {
         padding: 6px 8px;
         min-width: 60px;
     }
+}
+
+/* Center all tables in Markdown documents */
+.markdown-preview-view table,
+.markdown-source-view table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+}
+
+/* Make sure table headers are centered */
+.markdown-preview-view th,
+.markdown-source-view th {
+    text-align: center !important;
 }

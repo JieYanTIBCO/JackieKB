@@ -25,12 +25,14 @@
             "id": "12b0f17ab9092f3e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "02-Assets/Attachments/AWS_network.png"
+                "file": "01-Notes/Learning/Cloud/AWS/Network to AWS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "AWS_network"
+              "icon": "lucide-file",
+              "title": "Network to AWS"
             }
           }
         ],
@@ -111,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "02-Assets/Attachments/AWS_network.png",
+            "file": "01-Notes/Learning/Cloud/AWS/Network to AWS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -172,6 +174,15 @@
   },
   "active": "12b0f17ab9092f3e",
   "lastOpenFiles": [
+    "02-Assets/Attachments/AWS_network.png",
+    "02-Assets/Attachments/iam_assume_role_tocken.png",
+    "02-Assets/Attachments/AWS_IAM_flowchart.png",
+    "01-Notes/Learning/Cloud/AWS/Network to AWS.md",
+    "01-Notes/Learning/ETL and Snowflake.md",
+    "01-Notes/Learning/Tools/Apache Airflow.md",
+    "01-Notes/Learning/Management/Readiness.md",
+    "01-Notes/Learning/Management",
+    "00-Inbox/Need to clean up.md",
     "00-Inbox/Untitled.md",
     "01-Notes/Learning/Data Warehouse.md",
     "01-Notes/Learning/Container/Docker.md",
@@ -187,8 +198,6 @@
     "02-Assets/Attachments/LDAPHierarchy.png",
     "02-Assets/Attachments/kerberose.png",
     "02-Assets/Attachments/k8s.png",
-    "02-Assets/Attachments/image.png",
-    "02-Assets/Attachments/IAM.png",
     "01-Notes/Learning/Security/SSL & TLS.md",
     "01-Notes/Learning/Security/AWS Security.md",
     "01-Notes/Learning/Security/AWS VPC PrivateLink.md",
@@ -207,18 +216,11 @@
     "Excalidraw",
     "2025-02-23.md",
     "00-Inbox/Learning Plan.md",
-    "01-Notes/DailyNote/Untitled.md",
-    "02-Assets/README.md",
-    "01-Notes/README.md",
-    "README.md",
-    "03-Archive/README.md",
     "03-Archive",
-    "00-Inbox/README.md",
     "00-Inbox",
     "02-Assets/Resources",
     "02-Assets/Templates",
     "02-Assets/Cheatsheets",
-    "02-Assets/Attachments",
-    "02-Assets"
+    "02-Assets/Attachments"
   ]
 }

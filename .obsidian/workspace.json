@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Notes/Learning/Data Warehouse.md",
+                "file": "01-Notes/Learning/Cloud/AWS/Network to AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Warehouse"
+              "title": "Network to AWS"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 343.5
   },
   "right": {
     "id": "cc2d84d66d7cd62b",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Notes/Learning/Data Warehouse.md",
+                "file": "01-Notes/Learning/Security/Encryption.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Data Warehouse"
+              "title": "Outline of Encryption"
             }
           },
           {
@@ -178,33 +178,45 @@
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
-      "periodic-notes:Open today": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "yet-another-obsidian-synchronizer:YAOS": false
+      "yet-another-obsidian-synchronizer:YAOS": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "6df229a8f8b881c0",
   "lastOpenFiles": [
     "00-Inbox/Learning Plan.md",
+    "01-Notes/Learning/Cloud/AWS/Network to AWS.md",
+    "02-Assets/Attachments/AWS_IAM.png",
+    "02-Assets/Attachments/iam_assume_role_tocken.png",
+    "02-Assets/Attachments/iam_assume_role_tocken.png.crdownload",
+    "02-Assets/Attachments/AWS_IAM_flowchart.png",
+    "02-Assets/Attachments/AWS_IAM_flowchart.png.crdownload",
+    "02-Assets/Attachments/AWS_architecture_1536x1536.webp",
+    "02-Assets/Attachments/arp_segetation.png",
+    "01-Notes/Learning/Management/Readiness.md",
+    "00-Inbox/Need to clean up.md",
+    "01-Notes/Learning/Management",
+    "01-Notes/Learning/ETL and Snowflake.md",
+    "00-Inbox/README.md",
+    "01-Notes/Learning/Data Warehouse.md",
+    "01-Notes/Learning/Markdown.md",
+    "01-Notes/Learning/Snowflake.md",
+    "01-Notes/Learning/Security/Administration of Linux.md",
+    "01-Notes/Learning/Security/Encryption.md",
     "01-Notes/Learning/ETL and Snowflake",
     "01-Notes/Learning/Tools/Apache Airflow.md",
-    "01-Notes/Learning/Data Warehouse.md",
-    "00-Inbox/Untitled.md",
-    "01-Notes/Learning/Snowflake.md",
     "01-Notes/Learning/Container/Docker.md",
     "01-Notes/Learning/Security/AWS VPC PrivateLink.md",
     "01-Notes/Learning/Security/AWS Security.md",
-    "01-Notes/Learning/Security/Administration of Linux.md",
     "02-Assets/Attachments/dockercheatsheet8.png",
-    "01-Notes/Learning/Security/Encryption.md",
     "放,阿里方面分.canvas",
     "Untitled.canvas",
     "02-Assets/Attachments/AWS_network.png",
     "01-Notes/Learning/Security/Verify Certificate.md",
     "01-Notes/Learning/Security/SSL & TLS.md",
     "00-Inbox/MeetingRequestForupdaterissue.md",
-    "00-Inbox/README.md",
     "00-Inbox/Untitled 1.md",
     "00-Inbox/google job link.md",
     "01-Notes/Learning/Cloud/AWS/VPC 101.md",
@@ -213,25 +225,14 @@
     "01-Notes/Learning/Monitoring.md",
     "01-Notes/Learning/Security/Application level.md",
     "01-Notes/Learning/Container/Kubenetes.md",
-    "02-Assets/Attachments/AWS_architecture_1536x1536.webp",
-    "02-Assets/Attachments/arp_segetation.png",
     "02-Assets/Attachments/Exchange_Architecure.png",
-    "02-Assets/Attachments/AWS_IAM.png",
     "02-Assets/Attachments/Image_20240916140438.jpg",
     "02-Assets/Attachments/SQLQueryOrder.png",
-    "02-Assets/Attachments/AWSbill.png",
-    "02-Assets/Attachments/LDAPHierarchy.png",
     "02-Assets/Attachments/SSO_SAML.txt",
-    "01-Notes/Learning/Tools/Monitoring/Promethus.md",
-    "01-Notes/Learning/Tools/Monitoring/Grafana.md",
-    "01-Notes/Learning/Tools/Monitoring/ELK.md",
     "01-Notes/Learning/Tools/Monitoring",
     "01-Notes/Learning/Container",
     "01-Notes/Learning/Tools",
     "01-Notes/Learning/Cloud",
-    "01-Notes/Learning/Cloud/AWS",
-    "01-Notes/Learning/Security",
-    "Dynamic Highlights configuration",
-    "Dynamic Highlights configuration.json"
+    "01-Notes/Learning/Cloud/AWS"
   ]
 }
