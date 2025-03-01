@@ -11,7 +11,7 @@ flowchart TD
         TroubleE[/"Troubleshooting:
         • ping, traceroute
         • netstat, nslookup
-        • tcpdump
+        • tcpdump, wireshark
         • Firewall logs
         • Router logs"/]
     end
