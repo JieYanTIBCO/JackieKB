@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "52c52504e1f13123",
+        "id": "9b46378f4f2eeb65",
         "type": "tabs",
         "children": [
           {
-            "id": "6df229a8f8b881c0",
+            "id": "8f6f0b050a694705",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "02-Assets/Attachments/SQLQueryOrder.png"
+                "file": "01-Notes/Learning/SQL/Common Mistakes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "SQLQueryOrder"
+              "icon": "lucide-file",
+              "title": "Common Mistakes"
             }
           }
         ]
@@ -182,8 +184,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2351ef468f610050",
+  "active": "8f6f0b050a694705",
   "lastOpenFiles": [
+    "01-Notes/Learning/Network/NetworkCommonIssues.md",
+    "01-Notes/Learning/Network/Network to AWS.md",
+    "01-Notes/Learning/Network",
+    "01-Notes/Learning/SQL/SQL Cheat Sheet.md",
+    "01-Notes/Learning/Security/Firewall.md",
+    "01-Notes/Learning/Security/API Authentication ways.md",
+    "01-Notes/Learning/Security/Encryption.md",
+    "01-Notes/Learning/Security/Zero Trust.md",
+    "01-Notes/Learning/SQL/Common Mistakes.md",
+    "01-Notes/Learning/Tools/Apache Airflow.md",
+    "00-Inbox/SASE.md",
+    "01-Notes/Learning/Security/Hashing.md",
+    "01-Notes/Learning/Security/SSL & TLS.md",
+    "01-Notes/Learning/Cloud/AWS/VPC 101.md",
+    "01-Notes/Learning/SQL",
+    "01-Notes/Learning/Cloud/AWS/AWS cloud infrastructure.md",
+    "00-Inbox/Learning Plan.md",
+    "02-Assets/Attachments/SQLQueryOrder.png",
     "02-Assets/SQL_WindowFunction_CheatSheet.png",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/main.min.css",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/tiny-slider.min.css",
@@ -193,8 +213,6 @@
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/academy.js.download",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/jQuery.progressBar.min.js.download",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/8b92aaba-f2eb-4a9a-a47d-68a8bfbaf20a.js.download",
-    "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/shCore.js.download",
-    "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/shBrushSql.js.download",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/1f525.svg",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/1f680.svg",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/user.png",
@@ -203,12 +221,7 @@
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/Window_Functions_Cheat_Sheet_page_1.png",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/Window_Functions_Cheat_Sheet_page_2.png",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/window-functions.png",
-    "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/1.png",
-    "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/aggregate-vs-window-functions.png",
-    "01-Notes/Learning/Network/NetworkCommonIssues.md",
-    "01-Notes/Learning/Network/Network to AWS.md",
     "01-Notes/Learning/Cloud/AWS/Network to AWS.md",
-    "00-Inbox/Learning Plan.md",
     "01-Notes/Learning/Management/Readiness.md",
     "00-Inbox/Need to clean up.md",
     "01-Notes/Learning/ETL and Snowflake.md",
@@ -217,20 +230,8 @@
     "01-Notes/Learning/Markdown.md",
     "01-Notes/Learning/Snowflake.md",
     "01-Notes/Learning/Security/Administration of Linux.md",
-    "01-Notes/Learning/Security/Encryption.md",
-    "01-Notes/Learning/Tools/Apache Airflow.md",
     "01-Notes/Learning/Container/Docker.md",
-    "01-Notes/Learning/Security/AWS VPC PrivateLink.md",
-    "01-Notes/Learning/Security/AWS Security.md",
     "放,阿里方面分.canvas",
-    "Untitled.canvas",
-    "01-Notes/Learning/Security/Verify Certificate.md",
-    "01-Notes/Learning/Security/SSL & TLS.md",
-    "00-Inbox/MeetingRequestForupdaterissue.md",
-    "00-Inbox/Untitled 1.md",
-    "00-Inbox/google job link.md",
-    "01-Notes/Learning/Cloud/AWS/VPC 101.md",
-    "01-Notes/Learning/Cloud/AWS/AWS cloud infrastructure.md",
-    "01-Notes/DailyNote/2025-02-23.md"
+    "Untitled.canvas"
   ]
 }
