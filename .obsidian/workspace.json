@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Notes/Learning/SQL/Common Mistakes.md",
+                "file": "01-Notes/Learning/Tools/OpenSSL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Common Mistakes"
+              "title": "OpenSSL"
             }
           }
         ]
@@ -186,6 +186,11 @@
   },
   "active": "8f6f0b050a694705",
   "lastOpenFiles": [
+    "01-Notes/Learning/Security/SSL & TLS.md",
+    "01-Notes/Learning/Tools/OpenSSL.md",
+    "01-Notes/Learning/Tools/Untitled",
+    "01-Notes/Learning/SQL/Common Mistakes.md",
+    "01-Notes/Learning/Network/TCP&UDP.md",
     "01-Notes/Learning/Network/NetworkCommonIssues.md",
     "01-Notes/Learning/Network/Network to AWS.md",
     "01-Notes/Learning/Network",
@@ -194,11 +199,9 @@
     "01-Notes/Learning/Security/API Authentication ways.md",
     "01-Notes/Learning/Security/Encryption.md",
     "01-Notes/Learning/Security/Zero Trust.md",
-    "01-Notes/Learning/SQL/Common Mistakes.md",
     "01-Notes/Learning/Tools/Apache Airflow.md",
     "00-Inbox/SASE.md",
     "01-Notes/Learning/Security/Hashing.md",
-    "01-Notes/Learning/Security/SSL & TLS.md",
     "01-Notes/Learning/Cloud/AWS/VPC 101.md",
     "01-Notes/Learning/SQL",
     "01-Notes/Learning/Cloud/AWS/AWS cloud infrastructure.md",
@@ -212,7 +215,6 @@
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/flashsale.js.download",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/academy.js.download",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/jQuery.progressBar.min.js.download",
-    "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/8b92aaba-f2eb-4a9a-a47d-68a8bfbaf20a.js.download",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/1f525.svg",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/1f680.svg",
     "02-Assets/Attachments/SQL Window Functions Cheat Sheet _ LearnSQL.com_files/user.png",
@@ -230,7 +232,6 @@
     "01-Notes/Learning/Markdown.md",
     "01-Notes/Learning/Snowflake.md",
     "01-Notes/Learning/Security/Administration of Linux.md",
-    "01-Notes/Learning/Container/Docker.md",
     "放,阿里方面分.canvas",
     "Untitled.canvas"
   ]
