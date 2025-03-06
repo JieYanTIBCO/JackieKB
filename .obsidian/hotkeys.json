@@ -42,5 +42,13 @@
       ],
       "key": "+"
     }
+  ],
+  "editor:insert-callout": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "+"
+    }
   ]
 }
