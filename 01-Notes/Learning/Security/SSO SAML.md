@@ -1,3 +1,68 @@
+## SAML SSO Configuration Flow
+```mermaid
+graph TD
+    A[Start Configuration] --> B[Configure Service Provider SP]
+    B --> C[Configure Identity Provider IdP]
+    
+    subgraph "SP Configuration"
+        B --> B1[Set SP Entity ID]
+        B --> B2[Configure ACS URL]
+        B --> B3[Define Required Attributes]
+        B --> B4[Set SAML Binding]
+        B --> B5[Configure Session Settings]
+    end
+    
+    subgraph "IdP Configuration"
+        C --> C1[Set IdP Entity ID]
+        C --> C2[Configure SSO URL]
+        C --> C3[Set up Certificates]
+        C --> C4[Configure Authentication Context]
+        C --> C5[Set up Attribute Mapping]
+    end
+    
+    B1 & B2 & B3 & B4 & B5 --> D[Exchange Metadata]
+    C1 & C2 & C3 & C4 & C5 --> D
+    D --> E[Test SSO Integration]
+    E --> F[Deploy to Production]
+    F --> G[Monitor & Maintain]
+```
+
+## SAML Authentication Flow
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant SP as Service Provider
+    participant IdP as Identity Provider
+    
+    U->>SP: 1. Access Protected Resource
+    SP->>U: 2. Redirect to IdP
+    U->>IdP: 3. Forward SAML Request
+    
+    rect rgb(200, 220, 240)
+        Note over IdP: Authentication Process
+        IdP->>U: 4. Present Login Form
+        U->>IdP: 5. Submit Credentials
+        IdP->>IdP: 6. Validate Credentials
+        opt MFA Enabled
+            IdP->>U: 7. Request Second Factor
+            U->>IdP: 8. Submit MFA Code
+        end
+    end
+    
+    IdP->>IdP: 9. Generate SAML Assertion
+    IdP->>U: 10. Return SAML Response
+    U->>SP: 11. Submit SAML Response
+    
+    rect rgb(200, 240, 200)
+        Note over SP: Validation Process
+        SP->>SP: 12. Validate Signature
+        SP->>SP: 13. Process Assertion
+        SP->>SP: 14. Create Session
+    end
+    
+    SP->>U: 15. Grant Access to Resource
+```
+
 ### **1️⃣ Complete List of SAML Configuration Parameters (SP and IdP) with Examples**
 
 #### **SP Configuration Parameters:**
@@ -130,6 +195,3 @@ Once the assertion is validated, the user is granted access to the resource on *
 - **SAML Request/Response** involves **SP Entity ID** (S1), **ACS URL** (S2), **IdP Entity ID** (I1), **IdP Signing Certificate** (I3), and more.
 - **Authentication** and **session management** depend on **Authentication Context** (I4), **Role Mapping** (S9), and **Attribute Mapping** (I7).
 - **Security features** such as **Signature Validation** (S5) and **Assertion Encryption** (I9) ensure data integrity and privacy.
-
-
-
