@@ -391,7 +391,9 @@ tc reviews-v1 ratings 9080          # Should timeout
 #### Policy Verification
 
 ```bash
-
+ kgp -n dev1 -o wide
+ 
+ k exec -n dev1 -it productpage-v1-66c4dc5d5c-lzwxr -- /bin/bash
 # Check policy hit counters
 
 calicoctl get networkpolicy -n dev1 -o yaml | grep -E "name|rulesApplied"
@@ -431,3 +433,99 @@ kubectl get pods -n dev1 --show-labels
 # Verify policy details
 
 calicoctl get networkpolicy -n dev1 <policy-name> -o yaml
+```
+
+
+
+### Service policy in Calico
+https://docs.tigera.io/calico/latest/network-policy/policy-rules/service-policy
+https://docs.tigera.io/calico/latest/network-policy/get-started/calico-policy/calico-network-policy
+
+
+```mermaid
+sequenceDiagram
+    Service->>+API Server: 监控 Pod 状态
+    API Server->>Service: 推送 Endpoints 变更
+    Service->>kube-proxy: 更新路由规则
+    kube-proxy->>客户端: 新增流量分发目标
+    Pod1-->>Service: 停止服务（Down）
+    Service->>kube-proxy: 移除旧路由
+```
+
+
+description of hard issue.
+1. in productpage pod, nc -zv reviews.dev1.svc 9080 opened. nc -zv details.dev1.svc 9080 timeout.
+2. in productpage pod, nslookup details.dev1.svc  resolve cluster IP.
+3. in productpage pod, nc -zv details_service_cluster_IP 9080 timeout, nc -zv details_endpoint 9080, opened.
+4. Apply allow all rule with order=1 with calicoctl, nc -zv details.dev1.svc 9080 opened.
+5. compared productpage egress networkpolicy, reviews and details are the same.
+6. Compared details and reviews, ingress networkpolicy, they are the same.
+
+I noticed reviews cluster ip is 10.111.x.x
+Fixed the issue by reconfigure the "clusterCIDR: 10.122.0.0/16" beca
+kubectl edit cm kube-proxy -n kube-system
+
+restart kube-proxy pod:
+kubectl delete pods -n kube-system -l k8s-app=kube-proxy
+
+
+
+
+## install calicoctl
+  311  curl -L https://github.com/projectcalico/calico/releases/download/v3.29.2/calicoctl-linux-amd64 -o calicoctl
+  312  chmod +x calicoctl
+  313  sudo mv calicoctl /usr/local/bin/
+  314  calicoctl version
+
+## show BGP
+tibco@k8s-node1:~$ sudo calicoctl node status
+Calico process is running.
+
+IPv4 BGP status
++----------------+-------------------+-------+----------+-------------+
+|  PEER ADDRESS  |     PEER TYPE     | STATE |  SINCE   |    INFO     |
++----------------+-------------------+-------+----------+-------------+
+| 192.168.10.100 | node-to-node mesh | up    | 04:19:02 | Established |
+| 192.168.10.102 | node-to-node mesh | up    | 04:19:09 | Established |
++----------------+-------------------+-------+----------+-------------+
+
+tibco@k8s-node1:~$ sudo birdc show status
+BIRD 2.0.8 ready.
+BIRD 2.0.8
+Router ID is 10.122.36.64
+Hostname is k8s-node1
+Current server time is 2025-03-23 17:00:00.748
+Last reboot on 2025-03-23 16:59:53.415
+Last reconfiguration on 2025-03-23 16:59:53.415
+Daemon is up and running
+
+
+
+tibco@k8s-node1:~$ ip route show
+default via 192.168.10.2 dev ens33 proto static
+blackhole 10.122.36.64/26 proto bird
+10.122.36.69 dev cali08440ddce5b scope link
+10.122.36.70 dev cali0ea970dc3e2 scope link
+10.122.36.71 dev cali711c5340b4d scope link
+10.122.36.72 dev cali3e3316659a6 scope link
+10.122.62.128/26 via 192.168.10.100 dev tunl0 proto bird onlink
+10.122.169.128/26 via 192.168.10.102 dev tunl0 proto bird onlink
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown
+192.168.10.0/24 dev ens33 proto kernel scope link src 192.168.10.101
+
+
+
+tibco@k8s-cp:~$ kgs -n dev1 -o wide
+NAME          TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)    AGE     SELECTOR
+details       ClusterIP   10.104.97.21     <none>        9080/TCP   5d11h   app=details
+productpage   ClusterIP   10.108.145.154   <none>        9080/TCP   5d11h   app=productpage
+ratings       ClusterIP   10.111.155.22    <none>        9080/TCP   5d11h   app=ratings
+reviews       ClusterIP   10.98.92.226     <none>        9080/TCP   5d11h   app=reviews
+
+tibco@k8s-cp:~$ kge -n dev1 -o wide
+NAME          ENDPOINTS                                                 AGE
+details       10.122.36.69:9080                                         5d11h
+productpage   10.122.169.134:9080                                       5d11h
+ratings       10.122.169.133:9080                                       5d11h
+reviews       10.122.169.135:9080,10.122.36.70:9080,10.122.36.72:9080   5d11h
+

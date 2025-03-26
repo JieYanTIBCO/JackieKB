@@ -25,14 +25,50 @@
             "id": "5b597239d88724c5",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-22 23.42.04.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-22 23.42.04.excalidraw"
+            }
+          },
+          {
+            "id": "f0ee62089c9fbc05",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-23 09.00.13.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-23 09.00.13.excalidraw"
+            }
+          },
+          {
+            "id": "2badc00e69061eba",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Notes/Learning/Container/Kubenetes/Calico.md",
+                "file": "01-Notes/Learning/DevOps/Workflow Mermaid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calico"
+              "title": "Workflow Mermaid"
+            }
+          },
+          {
+            "id": "8bc9b50df29e9e10",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-03-26 08.12.06.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-03-26 08.12.06.excalidraw"
             }
           },
           {
@@ -50,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -213,11 +249,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2351ef468f610050",
+  "active": "8bc9b50df29e9e10",
   "lastOpenFiles": [
+    "01-Notes/Learning/DevOps/Workflow Mermaid.md",
+    "Excalidraw/Drawing 2025-03-26 08.12.06.excalidraw.md",
+    "01-Notes/Learning/Container/Kubenetes/Calico.md",
+    "02-Assets/Attachments/bookinfo.svg",
+    "Excalidraw/k8s-Ingress-arc.excalidraw.md",
+    "01-Notes/Learning/Container/Kubenetes/IMPLEMENTATION.md.md",
+    "Excalidraw/Drawing 2025-03-23 20.38.01.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-24 20.26.08.excalidraw.md",
+    "00-Inbox/Test note.md",
+    "Excalidraw/Drawing 2025-03-25 08.52.44.excalidraw.md",
+    "01-Notes/Learning/DevOps",
+    "Excalidraw/Drawing 2025-03-23 10.20.34.excalidraw.md",
+    "01-Notes/Learning/Container/Kubenetes/Architecture K8s-Calico.md",
+    "Excalidraw/Drawing 2025-03-23 09.04.59.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-23 09.00.13.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-22 23.42.04.excalidraw.md",
     "Excalidraw/Drawing 2025-03-21 19.02.12.excalidraw.md",
     "02-Assets/Attachments/architecture-calico-deae813300e472483f84d6bfb49650ab.svg",
-    "01-Notes/Learning/Container/Kubenetes/Calico.md",
     "02-Assets/Attachments/Unconfirmed 58555.crdownload",
     "01-Notes/Learning/Container/Kubenetes/LearningPlan.md",
     "02-Assets/Attachments/Calico-RBAC-example-tiers-350db070cf4f095db5de19ecbcc1e9ea.svg",
@@ -235,20 +286,7 @@
     "Excalidraw/Drawing 2025-03-06 18.21.47.excalidraw.md",
     "Excalidraw/Drawing 2025-03-06 19.17.55.excalidraw.md",
     "Excalidraw/Drawing 2025-03-06 19.18.30.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-06 08.21.31.excalidraw.md",
-    "Excalidraw/Drawing 2025-02-24 00.23.49.excalidraw.md",
-    "01-Notes/Learning/Security/SSO SAML.md",
-    "01-Notes/Learning/Network/routing table.md",
-    "01-Notes/Learning/Network/NetworkCommonIssues.md",
-    "01-Notes/Learning/Tools/OpenSSL.md",
-    "01-Notes/Learning/Network/TCP&UDP.md",
-    "01-Notes/Learning/ETL and Snowflake.md",
-    "01-Notes/Learning/Network/Network to AWS.md",
     "01-Notes/Learning/Network",
-    "01-Notes/Learning/Security/Hashing.md",
-    "01-Notes/Learning/Security/API Authentication ways.md",
-    "00-Inbox/SASE.md",
-    "01-Notes/Learning/Security/Firewall.md",
     "01-Notes/Learning/Network/Untitled",
     "02-Assets/Attachments/SQL_JOINS_orig.jpg",
     "02-Assets/Attachments/iam_assume_role_tocken.png",
@@ -260,8 +298,6 @@
     "02-Assets/Attachments/dockercheatsheet8.png",
     "放,阿里方面分.canvas",
     "Untitled.canvas",
-    "02-Assets/Attachments/AWS_network.png",
-    "02-Assets/Attachments/SSO_SAML.txt",
-    "01-Notes/Learning/Tools/Monitoring"
+    "02-Assets/Attachments/SSO_SAML.txt"
   ]
 }
